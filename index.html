@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>4B0U7</title>
+		<link rel="stylesheet" href="main.css" />
+		<script src="./jquery.min.js"></script>
+		<script src="./t.min.js"></script>
+		<script type="text/javascript" src="HackTimer.min.js"></script>
+		<script type="text/javascript" src="HackTimerWorker.min.js"></script>
+	</head>
+	<body>
+    <!-- <span id="pow-txt">othy Lee Long</span><del id="pow-trigger"></del> -->
+		<pre id="main">
+Hi. I'm Tim <ins>1</ins>
+<span id="tagline">I love to code!</span><ins>.5</ins>
+
+<span id="tagline">I am a full stack</span>
+<span id="tagline">software engineer</span>
+
+<span id="tagline">with a background in</span>
+<span id="tagline">music performance </span><ins></ins><span id="tagline">and</span>
+<span id="tagline">audio engineering.</span><ins>1</ins>
+
+<span id="tagline">I enjoy complex problem solving, </span><ins></ins>
+<span id="tagline">and thrive under pressure.</span><ins>.7</ins>
+
+<span id="tagline">When I'm not coding</span><ins>.4</ins>
+<span id="tagline">I'll be hanging with my cats</span><ins></ins>
+<span id="tagline">watching Sci-fi,</span><ins>.4</ins>
+<span id="tagline">making music at the studio, </span><ins>.4</ins>
+<span id="tagline">or planning my</span><ins></ins>
+<span id="tagline">next destination...</span><ins>2</ins>
+
+<s>22</s><del id="tagline"><span id="tagline">While you've been reading this</span>
+<span id="tagline">I was able to hack into the file</span>
+<span id="tagline">system of your device...</span><ins>1.5</ins></del><s>30</s>
+<del id="tagline"><span id="tagline">...just kidding ;)</span><ins>2</ins></del><del id="tagline"><span id="tagline">Have a nice day :)</span><ins>2</ins></del> \\
+</pre>
+		<script>
+			$('#main').t({
+				beep: true,
+				caret: '<span style="color:hotpink;">•</span>',
+				// caret: '<span style="color:hotpink;">|</span>',
+				typing: function (elm, chr) {
+					if (chr.match(/\-trigger/)) $('#pow-txt').show().delay(0).fadeOut(1000);
+				},
+			});
+		</script>
+	</body>
+</html>

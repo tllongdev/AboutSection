@@ -1,0 +1,25 @@
+body {
+	background: #232323;
+}
+
+pre {
+	color: #ff6347;
+	font-size: 16px;
+	font-family: monospace;
+	font-weight: bolder;
+}
+
+del {
+	text-decoration: none;
+}
+
+#tagline {
+	color: grey;
+	font-weight: 100;
+}
+
+/* #pow-txt {
+	display: none;
+	font-weight: 100; */
+	/* color: #df523ad8 !important;
+} */
